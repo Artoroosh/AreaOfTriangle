@@ -10,9 +10,9 @@ import javax.swing.JOptionPane;
 public class AreaOfTriangle {
     public static void main(String[] args) {
          //We gather all the users inputs.
-         String sideAstr = JOptionPane.showInputDialog("Enter side A");
-         String sideBstr = JOptionPane.showInputDialog("Enter side B");       
-         String sideCstr = JOptionPane.showInputDialog("Enter side C");
+         String sideAstr = JOptionPane.showInputDialog("Enter side A in centemeters");
+         String sideBstr = JOptionPane.showInputDialog("Enter side B in centemeters");       
+         String sideCstr = JOptionPane.showInputDialog("Enter side C in centemeters");
          //We Convert It all into doubles
          double sideA = Double.parseDouble(sideAstr);
          double sideB = Double.parseDouble(sideBstr);
@@ -22,7 +22,7 @@ public class AreaOfTriangle {
          //We do the final conversion  
          double areaOfTriangle = ((sideA + sideB +sinC)/2);
          //We output the area of the user
-         System.out.println("The Area of the triangle is "+areaOfTriangle);
+         System.out.println("The Area of the triangle is "+areaOfTriangle+"CM");
     }
     
     
